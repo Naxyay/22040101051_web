@@ -1,0 +1,17 @@
+# --- BÜYÜK DOSYALAR ---
+# GitHub 100MB sınırına takılan dosyan:
+heart_2022_with_nans
+
+# Diğer büyük dosyalar (Ne olur ne olmaz)
+*.csv
+*.zip
+
+# --- GÜVENLİK ---
+# db.php dosyan muhtemelen 'site' klasörünün içinde. 
+# Bu komut nerede olursa olsun db.php'yi bulur ve gizler:
+**/db.php
+
+# --- GEREKSİZLER ---
+__pycache__/
+*.ipynb_checkpoints/
+.DS_Store
